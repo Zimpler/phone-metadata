@@ -20,9 +20,10 @@ File.open('i18n/phonenumbers/metadata.js', 'w') do |file|
 
   file.puts <<-HEADER
 /**
-   Adapted from
+   Adapted from:
    #{uri}
-   But only keeping metadata related to the countries we care about.
+   using: https://github.com/Zimpler/phone-metadata
+   only keeping metadata related to the countries we care about.
    Contains the following countries: #{COUNTRIES}
 **/
 
